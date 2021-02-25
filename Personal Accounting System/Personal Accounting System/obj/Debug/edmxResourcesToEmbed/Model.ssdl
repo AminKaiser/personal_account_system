@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PASDB1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_expense">
+    <Key>
+      <PropertyRef Name="EXP_No" />
+    </Key>
+    <Property Name="EXP_No" Type="int" Nullable="false" />
+    <Property Name="exp_type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_income">
+    <Key>
+      <PropertyRef Name="SL_No" />
+    </Key>
+    <Property Name="SL_No" Type="int" Nullable="false" />
+    <Property Name="source_type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PASDB1ModelStoreContainer">
+    <EntitySet Name="tb_expense" EntityType="Self.tb_expense" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_income" EntityType="Self.tb_income" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

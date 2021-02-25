@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PASDB1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tb_expense">
+          <Key>
+            <PropertyRef Name="EXP_No" />
+          </Key>
+          <Property Name="EXP_No" Type="int" Nullable="false" />
+          <Property Name="exp_type" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="amount" Type="int" Nullable="false" />
+          <Property Name="date" Type="date" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'PASDB1.dbo.tb_income' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="tb_income">
+          <Key>
+            <PropertyRef Name="SL_No" />
+            <PropertyRef Name="source_type" />
+            <PropertyRef Name="amount" />
+            <PropertyRef Name="date" />
+            <PropertyRef Name="total" />
+          </Key>
+          <Property Name="SL_No" Type="int" Nullable="false" />
+          <Property Name="source_type" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="amount" Type="int" Nullable="false" />
+          <Property Name="date" Type="date" Nullable="false" />
+          <Property Name="total" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="PASDB1ModelStoreContainer">
+          <EntitySet Name="tb_expense" EntityType="Self.tb_expense" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tb_income" EntityType="Self.tb_income" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [tb_income].[SL_No] AS [SL_No], 
+    [tb_income].[source_type] AS [source_type], 
+    [tb_income].[amount] AS [amount], 
+    [tb_income].[date] AS [date], 
+    [tb_income].[total] AS [total]
+    FROM [dbo].[tb_income] AS [tb_income]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PASDB1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tb_expense">
+          <Key>
+            <PropertyRef Name="EXP_No" />
+          </Key>
+          <Property Name="EXP_No" Type="Int32" Nullable="false" />
+          <Property Name="exp_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="amount" Type="Int32" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="tb_income">
+          <Key>
+            <PropertyRef Name="SL_No" />
+            <PropertyRef Name="source_type" />
+            <PropertyRef Name="amount" />
+            <PropertyRef Name="date" />
+            <PropertyRef Name="total" />
+          </Key>
+          <Property Name="SL_No" Type="Int32" Nullable="false" />
+          <Property Name="source_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="amount" Type="Int32" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="total" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="PASDB1Entities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tb_expense" EntityType="Self.tb_expense" />
+          <EntitySet Name="tb_income" EntityType="Self.tb_income" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PASDB1ModelStoreContainer" CdmEntityContainer="PASDB1Entities2">
+          <EntitySetMapping Name="tb_expense">
+            <EntityTypeMapping TypeName="PASDB1Model.tb_expense">
+              <MappingFragment StoreEntitySet="tb_expense">
+                <ScalarProperty Name="EXP_No" ColumnName="EXP_No" />
+                <ScalarProperty Name="exp_type" ColumnName="exp_type" />
+                <ScalarProperty Name="amount" ColumnName="amount" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_income">
+            <EntityTypeMapping TypeName="PASDB1Model.tb_income">
+              <MappingFragment StoreEntitySet="tb_income">
+                <ScalarProperty Name="SL_No" ColumnName="SL_No" />
+                <ScalarProperty Name="source_type" ColumnName="source_type" />
+                <ScalarProperty Name="amount" ColumnName="amount" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

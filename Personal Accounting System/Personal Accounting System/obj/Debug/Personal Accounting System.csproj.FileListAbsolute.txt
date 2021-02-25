@@ -1,0 +1,83 @@
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe.config
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.pdb
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csprojAssemblyReference.cache
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Form2.resources
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Properties.Resources.resources
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.GenerateResource.cache
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CoreCompileInputs.cache
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.exe
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.pdb
+H:\Visual Studio\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Login.resources
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csprojAssemblyReference.cache
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Login.resources
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.MainForm.resources
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Properties.Resources.resources
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.GenerateResource.cache
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CoreCompileInputs.cache
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.pdb
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe.config
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.pdb
+H:\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.exe
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe.config
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.pdb
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csprojAssemblyReference.cache
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.income.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Login.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.MainForm.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Profile.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Properties.Resources.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.GenerateResource.cache
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CoreCompileInputs.cache
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.exe
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.pdb
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Expenses.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.nominiuser.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.PasswordChange.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.reportExpense.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.dll
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.xml
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CopyComplete
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Dapper.dll
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\bin\Debug\Dapper.xml
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.AddExpType.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.AddIncomeSource.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.IncomeReport.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\RdlCompile.cache
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\RdlCompile.compiled
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.userUtility.resources
+E:\Project\New folder\Personal Accounting System\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Report.resources
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe.config
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.exe
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\Personal Accounting System.pdb
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\Dapper.dll
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.dll
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.SqlServer.dll
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\Dapper.xml
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.xml
+H:\Personal Accounting System\Personal Accounting System\bin\Debug\EntityFramework.SqlServer.xml
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Expenses.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.AddExpType.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.income.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.AddIncomeSource.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Login.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.MainForm.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.nominiuser.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.PasswordChange.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Profile.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Properties.Resources.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.Report.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.reportExpense.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.IncomeReport.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal_Accounting_System.userUtility.resources
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.GenerateResource.cache
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\RdlCompile.cache
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\RdlCompile.compiled
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CoreCompileInputs.cache
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.csproj.CopyComplete
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.exe
+H:\Personal Accounting System\Personal Accounting System\obj\Debug\Personal Accounting System.pdb

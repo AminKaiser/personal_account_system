@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PASDB1ModelStoreContainer" CdmEntityContainer="PASDB1Entities2">
+    <EntitySetMapping Name="tb_expense">
+      <EntityTypeMapping TypeName="PASDB1Model.tb_expense">
+        <MappingFragment StoreEntitySet="tb_expense">
+          <ScalarProperty Name="EXP_No" ColumnName="EXP_No" />
+          <ScalarProperty Name="exp_type" ColumnName="exp_type" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_income">
+      <EntityTypeMapping TypeName="PASDB1Model.tb_income">
+        <MappingFragment StoreEntitySet="tb_income">
+          <ScalarProperty Name="SL_No" ColumnName="SL_No" />
+          <ScalarProperty Name="source_type" ColumnName="source_type" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
